@@ -39,7 +39,7 @@ header img {
   background-color: rgb(226, 226, 226);
 }
 .top .upper {
-  box-shadow: 0px -10px 10px -14px #111;
+  box-shadow: 0px -6px 10px -1px rgb(216, 216, 216);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -109,15 +109,107 @@ header img {
   font-size: 20px;
   margin-left: 0;
   margin-top: 14px;
-  background-color: rgb(137, 75, 75);
+  background-color: var(--primary);
+  color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
   border-radius: 100%;
 }
+.fonctionnement .choice_btn h2 {
+  margin-top: 18px;
+  font-size: 17px;
+}
 .fonctionnement .choice_btn i {
+  font-size: 23px;
   color: rgb(183, 183, 183);
   margin-top: 27px;
   margin-left: 10px;
   margin-right: 15px;
 }
 .fonctionnement .choice_btn:hover {
-  background-color: rgb(229, 215, 245);
+  background-color: rgb(242, 231, 255);
+}
+.fonctionnement .choice_btn:hover i {
+  color: var(--primary);
+}
+
+.restaurants {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding-bottom: 55px;
+}
+.restaurants h1 {
+  margin-left: 23px;
+  margin-top: 55px;
+  font-size: 24px;
+}
+.restaurants .restaurant_card {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px rgb(209, 209, 209);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 15px;
+}
+.restaurants .restaurant_card img {
+  aspect-ratio: 2/1;
+  width: 100%;
+  height: 165px;
+  border-radius: 15px 15px 0 0;
+}
+.restaurants .restaurant_card .bottom_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.restaurants .restaurant_card .bottom_card .texts h1, .restaurants .restaurant_card .bottom_card .texts h3 {
+  font-size: 18px;
+  margin-left: 12px;
+}
+.restaurants .restaurant_card .bottom_card .texts h1 {
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+.restaurants .restaurant_card .bottom_card .texts h3 {
+  margin-top: 5px;
+}
+.restaurants .restaurant_card .bottom_card .icon i {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+footer {
+  display: flex;
+  color: white;
+  background-color: rgb(63, 63, 63);
+  flex-direction: column;
+  padding: 20px;
+  padding-bottom: 42px;
+}
+footer img {
+  width: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  filter: brightness(0) invert(1);
+}
+footer .imaged_text {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+footer .imaged_text i {
+  margin-top: 8px;
+  font-size: 13px;
+  margin-right: 8px;
+}
+footer .imaged_text h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 300;
 }/*# sourceMappingURL=main.css.map */
