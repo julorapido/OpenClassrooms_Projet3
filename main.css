@@ -1,0 +1,123 @@
+:root {
+  --primary: #9356DC ;
+  --secondary: #FF79DA;
+  --teritary: #99E2D0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+}
+body h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+body h3 {
+  font-weight: 200;
+  font-size: 20px;
+}
+body h2 {
+  font-weight: 600;
+}
+
+header img {
+  width: 200px;
+  margin-left: auto;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-right: auto;
+  display: block;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(226, 226, 226);
+}
+.top .upper {
+  box-shadow: 0px -10px 10px -14px #111;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  font-size: 13px;
+  margin-top: 0;
+  color: rgb(74, 74, 74);
+}
+.top .upper h2 {
+  font-size: 18px;
+}
+.top .upper i {
+  margin-top: 22px;
+  margin-right: 14px;
+  font-size: 20px;
+}
+.top .bottom {
+  text-align: center;
+  background-color: rgb(236, 236, 236);
+  padding: 45px;
+  padding-top: 20px;
+}
+.top .bottom h1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.top .bottom h3 {
+  padding: 0;
+}
+.top .bottom .top_btn {
+  border: 0px solid;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  background: linear-gradient(var(--secondary), var(--primary));
+}
+.top .bottom .top_btn h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
+}
+.fonctionnement h1 {
+  margin-left: 24px;
+  margin-top: 30px;
+}
+.fonctionnement .choice_btn {
+  font-size: 13px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 30px;
+  width: 85%;
+  box-shadow: 0px 2px 10px rgb(209, 209, 209);
+  display: flex;
+  background-color: rgb(245, 245, 245);
+  flex-direction: row;
+  transition: 0.3s;
+}
+.fonctionnement .choice_btn h1 {
+  font-size: 20px;
+  margin-left: 0;
+  margin-top: 14px;
+  background-color: rgb(137, 75, 75);
+  border-radius: 100%;
+}
+.fonctionnement .choice_btn i {
+  color: rgb(183, 183, 183);
+  margin-top: 27px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.fonctionnement .choice_btn:hover {
+  background-color: rgb(229, 215, 245);
+}/*# sourceMappingURL=main.css.map */
