@@ -189,9 +189,23 @@ header{
             }
 
             .icon {
+                display: flex;
+                flex-direction: column;
                 i{
                     margin-top: 30px;
                     margin-right: 20px;
+                }
+
+                h3{
+                    position: absolute;
+                    margin-top: -155px;
+                    font-size: 14px;
+                    padding: 7px;
+                    border-radius: 3.5px;
+                    font-weight: 600;
+                    right: 35px;
+                    background-color: var(--teritary);
+                    color: darkcyan;
                 }
             }
         }

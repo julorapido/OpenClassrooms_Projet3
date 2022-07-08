@@ -179,9 +179,24 @@ header img {
 .restaurants .restaurant_card .bottom_card .texts h3 {
   margin-top: 5px;
 }
+.restaurants .restaurant_card .bottom_card .icon {
+  display: flex;
+  flex-direction: column;
+}
 .restaurants .restaurant_card .bottom_card .icon i {
   margin-top: 30px;
   margin-right: 20px;
+}
+.restaurants .restaurant_card .bottom_card .icon h3 {
+  position: absolute;
+  margin-top: -155px;
+  font-size: 14px;
+  padding: 7px;
+  border-radius: 3.5px;
+  font-weight: 600;
+  right: 35px;
+  background-color: var(--teritary);
+  color: darkcyan;
 }
 
 footer {

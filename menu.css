@@ -33,6 +33,35 @@ header i {
 .menu_parent {
   position: relative;
 }
+.menu_parent footer {
+  display: flex;
+  color: white;
+  background-color: rgb(63, 63, 63);
+  flex-direction: column;
+  padding: 20px;
+  padding-bottom: 42px;
+}
+.menu_parent footer img {
+  width: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  filter: brightness(0) invert(1);
+}
+.menu_parent footer .imaged_text {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.menu_parent footer .imaged_text i {
+  margin-top: 8px;
+  font-size: 13px;
+  margin-right: 8px;
+}
+.menu_parent footer .imaged_text h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 300;
+}
 
 .child_image {
   position: absolute;
@@ -47,8 +76,11 @@ header i {
   position: absolute;
   z-index: 2;
   margin-top: 180px;
-  background-color: #e6e6e6;
+  background-color: #f0f0f0;
   border-radius: 40px 40px 0 0;
+}
+.child_text footer {
+  margin-top: 0;
 }
 
 .head_texts {
@@ -56,24 +88,74 @@ header i {
   flex-direction: row;
   justify-content: space-around;
 }
+.head_texts h1 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 700;
+}
+.head_texts i {
+  margin-top: 33px;
+  font-size: 27px;
+}
 
+.section {
+  padding-top: 20px;
+}
+
+.section_title {
+  margin-left: 20px;
+}
 .section_title h1 {
   font-size: 15px;
   font-weight: 100;
 }
+.section_title h1:after {
+  content: "";
+  margin-top: 5px;
+  display: block;
+  background-color: var(--teritary);
+  width: 40px;
+  height: 3.5px;
+}
 
 .choix {
   background-color: white;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 19px;
+  box-shadow: 0px 4px 10px 0px rgb(207, 207, 207);
 }
 .choix h1 {
-  font-size: 19px;
+  font-size: 17px;
+  margin-bottom: 0px;
 }
 .choix h2 {
+  margin-top: 3px;
   font-weight: 100;
-  font-size: 16px;
+  font-size: 15px;
 }
 .choix h3 {
   float: right;
-  margin-top: 0;
+  margin-top: -25px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: rgb(74, 74, 74);
+}
+.choix h1, .choix h2 {
+  margin-left: 7px;
+}
+
+.btn_section {
   background-color: red;
+}
+
+.commander {
+  background: linear-gradient(var(--secondary), var(--primary));
+  border-radius: 35px;
+  color: white;
+  padding: 5px 45px 5px 45px;
+  margin-left: 24%;
+  font-size: 11px;
+  border: 0px;
+  margin-bottom: 60px;
+  margin-top: 35px;
 }/*# sourceMappingURL=menu.css.map */
