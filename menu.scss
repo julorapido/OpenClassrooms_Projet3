@@ -13,6 +13,7 @@ body{
 
 header{
     display: flex;
+    position: relative;
     flex-direction: row;
     img{
        width: 200px;
@@ -64,9 +65,12 @@ header{
 }
 .child_image{
     position: absolute;
+    width: 100%;
     img{
-        aspect-ratio: 1.6/1;
+        aspect-ratio: 1/1;
+        top: -200px;
         width: 100%;
+        height: 400px;
     }
 }
 .child_text{
