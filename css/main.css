@@ -20,6 +20,11 @@ body h3 {
 body h2 {
   font-weight: 600;
 }
+body button {
+  font-size: 18px;
+  font-weight: 200;
+  padding: 20px;
+}
 
 header img {
   width: 200px;
@@ -280,7 +285,6 @@ footer .imaged_text h3 {
   body {
     width: 100%;
   }
-
   .top {
     width: 100%;
   }
@@ -290,7 +294,6 @@ footer .imaged_text h3 {
   body {
     width: 40%;
   }
-
   .restaurant_card h4 {
     display: none;
   }

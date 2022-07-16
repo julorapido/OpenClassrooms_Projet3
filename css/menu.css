@@ -10,6 +10,11 @@ body {
   margin: 0 auto;
   font-family: "Raleway", sans-serif;
 }
+body .btn_class button {
+  font-size: 18px;
+  font-weight: 200;
+  padding: 20px 35px 20px 35px;
+}
 
 header {
   display: flex;
