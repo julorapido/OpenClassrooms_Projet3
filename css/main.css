@@ -300,8 +300,8 @@ footer .imaged_text h3 {
 }
 .loader {
   display: block;
-  -webkit-animation: fadeOut 1.3s forwards 1;
-          animation: fadeOut 1.3s forwards 1;
+  -webkit-animation: fadeOut 2s forwards 1;
+          animation: fadeOut 2s forwards 1;
   height: 100vh;
 }
 
@@ -332,46 +332,66 @@ footer .imaged_text h3 {
     height: 0;
   }
 }
-.lds-dual-ring {
-  display: block;
-  width: 80px;
+
+
+
+
+
+
+
+
+
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-left: 43%;
+  margin-top: 50%;
   height: 80px;
-  margin: auto;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  border-radius: 4px;
+  border: 1.5px rgb(79, 0, 125) solid;
+  animation: lds-facebook 0.8s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+  background: var(--primary);
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+  background: #e279ff;
+
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+  background: var(--secondary);
+
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
 }
 
-.lds-dual-ring:after {
-  content: " ";
-  display: block;
-  width: 64px;
-  height: 64px;
-  margin: 8px;
-  border-radius: 50%;
-  border: 6px solid rgb(99, 99, 99);
-  border-color: rgb(99, 99, 99) transparent rgb(99, 99, 99) transparent;
-  -webkit-animation: lds-dual-ring 1.3s forwards 1;
-          animation: lds-dual-ring 1.3s forwards 1;
-}
 
-@-webkit-keyframes lds-dual-ring {
-  from {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
-@keyframes lds-dual-ring {
-  from {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 .page_content {
-  -webkit-animation: fadeIn 1.3s forwards 1;
-          animation: fadeIn 1.3s forwards 1;
+  -webkit-animation: fadeIn 2s forwards 1;
+          animation: fadeIn 2s forwards 1;
 }
 
 @-webkit-keyframes fadeIn {
