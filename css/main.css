@@ -200,14 +200,17 @@ header img {
   flex-direction: row;
   justify-content: space-between;
 }
-.restaurants .restaurant_card .bottom_card .texts h1, .restaurants .restaurant_card .bottom_card .texts h3 {
+.restaurants .restaurant_card .bottom_card .texts h2, .restaurants .restaurant_card .bottom_card .texts h3 {
   font-size: 18px;
   margin-left: 12px;
 }
-.restaurants .restaurant_card .bottom_card .texts h1 {
+.restaurants .restaurant_card .bottom_card .texts h2 {
+  font-weight: 700;
+  font-size: 18px;
   margin-bottom: 0;
   margin-top: 15px;
 }
+
 .restaurants .restaurant_card .bottom_card .texts h3 {
   margin-top: 5px;
 }
@@ -380,7 +383,7 @@ footer .imaged_text h3 {
 }
 .lds-facebook div:nth-child(3) {
   left: 56px;
-  animation-delay: 0;
+  animation-delay: 0s;
   background: var(--secondary);
 
 }
